@@ -1,8 +1,1 @@
-db.birds.deleteMany(
-{
-    sightings_count:{
-        $lte: 10
-        }
-}
-
-)
+print("testing github repository")
