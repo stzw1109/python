@@ -1,11 +1,9 @@
 numbers = [12, 75, 150, 180, 145, 525, 50]
-count = 0
-while count <= 6:
-    if numbers[count] % 5 == 0 and numbers[count] <= 150 and numbers[count] <= 500:
-        print(numbers[count])
-    elif numbers[count] > 150:
+
+for x in numbers:
+    if x % 5 == 0 and x <=500 and x <= 150:
+        print(x)
+    elif x > 150 and x <=500:
         continue
-    elif numbers[count] > 500:
-        print("The number is greater than 500")
+    elif (x%5 != 0 or x%5 == 0) and x > 500 and x > 150:
         break
-    count +=1
