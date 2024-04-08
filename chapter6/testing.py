@@ -1,7 +1,10 @@
-num = 6
+name1 = input("Enter the first name: ")
+name2 = input("Enter the second name: ")
 
-for x in range(0,5):
-    for y in range(1,6-x,1):
-        print(num-y,end=" ")
-    print()    
-    num-=1
+length = min(len(name1), len(name2))
+
+for x in range(length):
+    for y in range(length):
+        print(name1[x])
+        print(name2[x])
+        break
