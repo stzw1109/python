@@ -1,23 +1,7 @@
-file = open('word.txt', 'r')
-f = file.readlines()
+dict1 = {'sam':10,'john':20,'aadi':30}
 
-newlist = []
+dict2 = dict1.copy()
 
-def func_1(newlist,f):
-    for line in f:
-        if line[-1] == '\n':
-            newlist.append(line[:-1])
-        else:
-            newlist.append(line)
-    print(newlist)
-
-def func_2(newlist,f):
-    for line in f:
-        if line[-1] == '\n':
-            f = f+[line[:-1]]
-        else:
-            f = f+[line]
-    print(newlist)
-
-func_1(newlist,f)
-func_2(newlist,f)
+dict1['sam']+=4
+print(dict1)
+print(dict2)

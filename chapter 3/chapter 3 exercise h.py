@@ -20,5 +20,26 @@ remaining_hours = float(input("How long before alarm is triggered:"))
 time_calculator(current_time,remaining_hours,0,24)
 
 
+#second option
+def time_determiner(current_time):
+    if current_time < 12:
+        print(f"current time:{current_time}AM")
+    else:
+        print(f"current time:{current_time - 12} PM")
 
+def time(current_time,hours,max_hour):
+    while hours>0:
+        if (current_time < max_hour):
+            current_time = current_time + 1
+        else:
+            current_time = 0
+            current_time = current_time + 1
+        hours -= 1
+    time_determiner(current_time)
+
+max_hour = 24
+current_time = float(input("enter current time(24hr):"))
+hours = float(input("enter hours: "))
+
+time(current_time,hours,max_hour)
     
