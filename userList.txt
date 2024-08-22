@@ -1,0 +1,5 @@
+{'username': 'sam', 'password': '12345', 'age': 21, 'email': 'stzw@gmail.com'}
+{'username': 'pua', 'password': '696969', 'age': 21, 'email': 'pzy@hotmail.com'}
+{'username': 'ankeetha', 'password': '123456', 'age': 21, 'email': 'ankee@hotmail.com'}
+{'username': 'Kim', 'password': '6969', 'age': 21, 'email': 'kimPossible@gmail.com'}
+{'username': 'John', 'password': 'B022210152', 'age': 22, 'email': 'cep@utem.com'}
