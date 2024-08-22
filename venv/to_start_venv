@@ -1,0 +1,8 @@
+Go to powershell then 
+
+Set-ExecutionPolicy Unrestricted
+Press A
+
+After all scripts are done then 
+Set-ExecutionPolicy Restricted
+Press A again
